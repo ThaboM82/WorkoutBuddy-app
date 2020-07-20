@@ -1,0 +1,63 @@
+// insert form layout
+
+.input-text {
+  border: none;
+  border: 3px solid white;
+  border-radius: 100px;
+  margin-top: var(--space-xs);
+  margin-bottom: var(--space-lg);
+  padding-left: var(--space-xs);
+  width: 75%;
+}
+
+.input-text:focus {
+  outline: none;
+  border: 3px solid var(--yellow);
+}
+
+.input-btn {
+  position: relative;
+  white-space: nowrap;
+  text-decoration: none;
+  line-height: 1;
+  // border: 2px solid var(--yellow);
+  border-radius: 100px;
+  background: white;
+  margin: var(--space-xxxs);
+  overflow: auto;
+  float: left;
+  label {
+    cursor: pointer;
+    width: 2em;
+    float: left;
+    span {
+      width: 8em;
+      padding: var(--space-md) var(--space-md);
+      text-align: center;
+      display: block;
+    }
+    input {
+      position: absolute;
+      top: -20px;
+    }
+    input:checked + span {
+      border-radius: 100px;
+      border: 2px solid var(--yellow);
+      background-color: var(--yellow);
+    }
+  }
+}
+
+.textarea-bio {
+  resize: none;
+  border: none;
+  max-width: 100vw;
+  height: 200px;
+  border: 3px solid white;
+  border-radius: var(--btn-radius);
+}
+
+.textarea-bio:focus {
+  outline: none;
+  border: 3px solid var(--yellow);
+}

@@ -1,0 +1,95 @@
+// insert buttons style
+
+.btn__arrow-right {
+  border: none;
+  background: none;
+  margin: 0;
+  // padding: var(--space-xs);
+  align-self: center;
+  cursor: pointer;
+}
+
+.btn__round-large {
+  display: inline-flex;
+  position: relative;
+  white-space: nowrap;
+  text-decoration: none;
+  line-height: 1;
+  cursor: pointer;
+  padding: var(--space-md) var(--space-md);
+  border: 2px solid var(--yellow);
+  border-radius: var(--btn-radius);
+  font-size: var(--btn-font-size);
+  // color: var(--color-link);
+  background: white;
+}
+
+.btn__round-small {
+  display: inline-flex;
+  position: absolute;
+  bottom: 5%;
+  right: 40;
+  //   bottom: 0%;
+  //   top: 90%;
+  white-space: nowrap;
+  text-decoration: none;
+  line-height: 1;
+  cursor: pointer;
+  padding: var(--space-md) var(--space-md);
+  border: 2px solid var(--yellow);
+  border-radius: var(--btn-radius);
+  font-size: var(--btn-font-size);
+  // color: var(--color-link);
+  background: white;
+}
+
+.btn__round-submit {
+  background: white;
+  border-radius: 100px;
+  border: none;
+  width: 150px;
+  height: 49px;
+  border: 2px solid var(--yellow);
+  cursor: pointer;
+}
+
+.btn__round-submit:focus {
+  outline: none;
+  background: var(--yellow);
+}
+
+a {
+  text-decoration: none;
+}
+
+.splash-button {
+  background: white;
+  border-radius: 100px;
+  border: none;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  padding-left: 40px;
+  align-items: center;
+  justify-items: center;
+  cursor: pointer;
+}
+
+.splash-button:focus {
+  outline: none;
+  background-color: var(--grey-light);
+}
+
+.splash-arrow {
+  padding-left: 30px;
+}
+
+
+.btn__round-submit-nowidth {
+  background: white;
+  border-radius: 100px;
+  border: none;
+  height: 49px;
+  border: 2px solid var(--yellow);
+  cursor: pointer;
+}

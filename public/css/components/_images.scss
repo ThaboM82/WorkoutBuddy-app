@@ -1,0 +1,39 @@
+.image-splash {
+  z-index: -1;
+  height: auto;
+  width: 24em;
+  position: sticky;
+  left: 35%;
+  top: 5%;
+}
+
+.image__icon__avatar-profile {
+  height: auto;
+  width: 5em;
+  object-fit: contain;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 10em;
+  width: 10em;
+  display: flex;
+  justify-content: center;
+  background-color: var(--grey-light);
+  border: 2px solid var(--grey);
+}
+
+.matched-buddle-img {
+  border-radius: 50%;
+  height: 6em;
+  width: 6em;
+  display: flex;
+  justify-content: center;
+  background-color: var(--grey-light);
+  border: 2px solid var(--grey);
+}
+
+.add {
+  font-size: var(--text-xxl);
+  padding-bottom: var(--space-xl);
+}

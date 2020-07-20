@@ -1,0 +1,41 @@
+{
+  "name": "gymbuddy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "go": "nodemon src/index.js",
+    "test": " NODE_ENV=test jest",
+    "tapetest": "NODE_ENV=test node tests/db_tests.js | tap-spec",
+    "build": "node src/model/run_build.js"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "verbose": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThaboM82/GymBuddy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThaboM82/GymBuddy/issues"
+  },
+  "homepage": "https://github.com/ThaboM82/GymBuddy#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "env2": "^2.2.2",
+    "express": "^4.17.0",
+    "express-handlebars": "^3.1.0",
+    "node-sass": "^4.12.0",
+    "pg": "^7.11.0",
+    "qs": "^6.7.0"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.0",
+    "supertest": "^4.0.2"
+  }
+}
